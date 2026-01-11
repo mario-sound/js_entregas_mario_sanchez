@@ -24,6 +24,15 @@ button {
   border-radius: 8px;
   padding: 3px 8px;
 }
+span#reset {
+  display: inline-block;
+  margin: 8px 0px;
+  color: grey;
+  border-radius: 8px;
+  padding: 3px 8px;
+  background-color: whitesmoke;
+  cursor: none;
+}
 
 a {
   text-decoration: none;

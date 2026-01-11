@@ -2,15 +2,46 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <title>Ejercicio X</title>
+    <title>Ejercicio 5</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>Ejercicio X</h1>
+    <h1>Ejercicio 5</h1>
 
-    <!-- Aquí va el contenido del ejercicio -->
+    <p>
+      Crea una página con dos campos de entrada de números y cuatro botones:
+      "Sumar", "Restar", "Multiplicar", y "Dividir".
+    </p>
+    <ul>
+      <li>
+        Al hacer clic en cualquiera de los botones, debe mostrarse el resultado
+        de la operación en un área de texto o debajo de los botones.
+      </li>
+      <li>
+        Asegúrate de validar los datos para evitar errores (como división por
+        cero o entradas vacías)
+      </li>
+    </ul>
 
-    <script src="js/ejercicioX.js"></script>
+    <div class="calculadora">
+      <input id="num1" type="number" placeholder="Número 1" />
+      <input id="num2" type="number" placeholder="Número 2" />
+
+      <div class="botones">
+        <button id="sumar">Sumar</button>
+        <button id="restar">Restar</button>
+        <button id="multiplicar">Multiplicar</button>
+        <button id="dividir">Dividir</button>
+      </div>
+
+      <span id="reset">Reset</span>
+
+      <p id="resultado">Resultado:</p>
+    </div>
+
+    <p><a href="index.html">Volver al índice</a></p>
+
+    <script src="js/js_ejercicio_5.js"></script>
   </body>
 </html>
