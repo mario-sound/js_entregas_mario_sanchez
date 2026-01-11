@@ -18,6 +18,13 @@ li {
   margin: 12px 0;
 }
 
+button {
+  font-size: inherit;
+  color: black;
+  border-radius: 8px;
+  padding: 8px;
+}
+
 a {
   text-decoration: none;
   color: #0066cc;
