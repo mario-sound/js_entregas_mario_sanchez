@@ -10,19 +10,19 @@ h1 {
 }
 
 ul {
-  list-style: none;
-  padding: 0;
+  list-style: disc;
+  padding: 2;
 }
 
 li {
-  margin: 12px 0;
+  margin: 4px 0;
 }
 
 button {
   font-size: inherit;
   color: black;
   border-radius: 8px;
-  padding: 8px;
+  padding: 3px 8px;
 }
 
 a {
