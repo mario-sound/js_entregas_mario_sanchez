@@ -2,15 +2,60 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <title>Ejercicio X</title>
+    <title>Ejercicio 7</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>Ejercicio X</h1>
+    <h1>Ejercicio 7</h1>
 
-    <!-- Aquí va el contenido del ejercicio -->
+    <p>
+      Objetivo del ejercicio: Practicar generación de cadenas aleatorias y uso
+      de formularios. Ejercicio:
+    </p>
+    <p>
+      Crea una página con un campo de entrada para especificar la longitud de
+      una contraseña y un botón que diga “Generar contraseña”
+    </p>
+    <ul>
+      <li>
+        Al hacer clic en el botón, se debe mostrar una contraseña generada
+        aleatoriamente usando letras, números y caracteres especiales.
+      </li>
+      <li>
+        Si la longitud es menor a 4 o el campo está vacío, muestra un mensaje de
+        error indicando que la longitud debe ser mayor o igual a 4.
+      </li>
+    </ul>
 
-    <script src="js/ejercicioX.js"></script>
+    <hr />
+
+    <!-- Longitud de la contraseña -->
+    <label for="longitud">Longitud de la contraseña:</label>
+    <input
+      id="longitud"
+      type="number"
+      min="4"
+      placeholder="Mínimo 4 caracteres"
+    />
+
+    <br /><br />
+
+    <!-- Botón generar -->
+    <button id="generar">Generar contraseña</button>
+
+    <br /><br />
+
+    <!-- Resultado / mensaje -->
+    <textarea
+      id="resultado"
+      rows="3"
+      readonly
+      placeholder="Aquí aparecerá la contraseña"
+    ></textarea>
+
+    <p><a href="index.html">Volver al índice</a></p>
+
+    <script src="js/js_ejercicio_7.js"></script>
   </body>
 </html>
