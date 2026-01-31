@@ -1,15 +1,39 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <title>Ejercicio X</title>
+    <title>Ejercicio 9</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>Ejercicio X</h1>
+    <h1>Ejercicio 9</h1>
 
-    <!-- Aquí va el contenido del ejercicio -->
+    <p>
+      Objetivo del ejercicio: Practicar persistencia de datos con localStorage.
+    </p>
+    <p>Ejercicio:</p>
+    <p>Crea una aplicación de lista de tareas.</p>
+    <ul>
+      <li>
+        Cada tarea debe incluir un texto y un checkbox para marcarla como
+        completada.
+      </li>
+      <li>
+        Las tareas se deben guardar en localStorage para que persistan incluso
+        si la página se recarga.
+      </li>
+      <li>
+        Debe incluir un botón para limpiar todas las tareas completadas y
+        actualizar el localStorage.
+      </li>
+    </ul>
+    <hr />
+    <div id="taskList">
+      <textarea id="tareas" rows="1" placeholder="Escribe tu tarea"></textarea>
+      <button id="addTask">Añadir tarea</button>
+      <button id="removeTasks">Borrar tareas</button>
+    </div>
 
     <p><a href="index.html">Volver al índice</a></p>
 
